@@ -1,0 +1,20 @@
+<?php  if ( ! defined('BASEPATH')) exit('No direct script access allowed');
+$config['first_link'] = '';
+$config['first_tag_open'] = '';
+$config['first_tag_close'] = '';
+$config['last_link'] = '';
+$config['last_tag_open'] = '';
+$config['last_tag_close'] = '';
+$config['next_link'] = '<i class="fa fa-angle-right" aria-hidden="true"></i>';
+$config['next_tag_open'] = '<li class="next">';
+$config['next_tag_close'] = '</li>';
+$config['prev_link'] = '<i class="fa fa-angle-left" aria-hidden="true"></i>';
+$config['prev_tag_open'] = '<li class="prev">';
+$config['prev_tag_close'] = '</li>';
+$config['cur_tag_open'] = '<li class="active"><span>';
+$config['cur_tag_close'] = '</span></li>';
+$config['num_tag_open'] = '<li>';
+$config['num_tag_close'] = '</li>';
+$config['full_tag_open'] = '<ul class="pagination pagination-sm m-0">';
+$config['full_tag_close'] = '</ul>';
+?>

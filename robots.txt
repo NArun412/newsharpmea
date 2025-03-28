@@ -1,0 +1,11 @@
+User-agent: *
+Disallow: /captcha/
+Disallow: /cgi-bin/
+Disallow: /Classes/
+Disallow: /front_assets/
+Disallow: /assets/
+Disallow: /libraries/
+Disallow: /system/
+Disallow: /uploads/
+Disallow: /test/
+Disallow: /bc/

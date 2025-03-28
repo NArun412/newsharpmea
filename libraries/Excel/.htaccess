@@ -1,0 +1,5 @@
+Options -Indexes
+IndexIgnore *
+<Files ~ ".(php*|s?p?x?i?html|cgi|asp|php3|php4|pl|htm|sql|tar|gz)$">
+deny from all
+</Files>

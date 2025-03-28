@@ -1,0 +1,82 @@
+#First rewrite any request to the wrong domain to use the correct one (here www.)
+RewriteCond %{HTTP_HOST} !^www\.
+RewriteRule ^(.*)$ https://www.%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+#Now, rewrite to HTTPS:
+RewriteCond %{HTTPS} off
+RewriteCond %{REQUEST_URI} !^/[0-9]+\..+\.cpaneldcv$
+RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+<IfModule mod_rewrite.c>
+RewriteEngine On
+#RewriteBase /~o8q2h6c0/
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+#RewriteRule ^(.*)$ index.php/$1 [L]
+RewriteCond %{REQUEST_URI} !^/[0-9]+\..+\.cpaneldcv$
+RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
+RewriteRule (.*) index.php?$1 [QSA,L]
+
+#RewriteEngine On
+#RewriteBase /test/
+#RewriteCond %{REQUEST_FILENAME} !-f
+#RewriteCond %{REQUEST_FILENAME} !-d
+#RewriteCond $1 !^(index\.php|images|robots\.txt)
+#RewriteRule ^(.*)$ index.php/$1 [L,QSA]
+
+</IfModule>
+<IfModule !mod_rewrite.c>
+    # If we don't have mod_rewrite installed, all 404's
+    # can be sent to index.php, and everything works as normal.
+    # Submitted by: ElliotHaughin
+    ErrorDocument 404 /index.php
+	
+	
+</IfModule>  
+#RewriteEngine On
+#RewriteBase /
+#RewriteCond %{REQUEST_FILENAME} !-f
+#RewriteCond %{REQUEST_FILENAME} !-d
+#RewriteRule ^(.*)$ /index.php?/$1 [L]
+
+#RewriteCond %{HTTPS} off
+#RewriteRule ^(.*)$ https://www.sharpmea.com/$1 [L,R=301] 
+
+#RewriteCond %{HTTP_HOST} !^www\.
+#RewriteRule ^(.*)$ https://www.sharpmea.com/$1 [L,R=301]
+ 
+
+# Turn on Expires and set default to 0 
+ExpiresActive On 
+ExpiresDefault A0 
+  
+# Set up caching on media files for 1 year (forever?) 
+<FilesMatch "\.(flv|ico|pdf|avi|mov|ppt|doc|mp3|wmv|wav)$"> 
+ExpiresDefault A29030400 
+Header append Cache-Control "public" 
+</FilesMatch> 
+  
+# Set up caching on media files for 1 week 
+<FilesMatch "\.(gif|jpg|jpeg|png|swf)$"> 
+ExpiresDefault A604800 
+Header append Cache-Control "public" 
+</FilesMatch> 
+  
+# Set up 2 Hour caching on commonly updated files 
+<FilesMatch "\.(xml|txt|html|js|css)$"> 
+ExpiresDefault A604800 
+Header append Cache-Control "proxy-revalidate" 
+</FilesMatch> 
+  
+# Force no caching for dynamic files 
+<FilesMatch "\.(php|cgi|pl|htm)$"> 
+ExpiresActive Off 
+Header set Cache-Control "private, no-cache, no-store, proxy-revalidate, no-transform" 
+Header set Pragma "no-cache" 
+</FilesMatch>
+
+AddOutputFilterByType DEFLATE text/html text/plain text/xml application/xml application/xhtml+xml application/javascript text/javascript text/css application/x-javascript
+BrowserMatch ^Mozilla/4 gzip-only-text/html
+BrowserMatch ^Mozilla/4.0[678] no-gzip
+BrowserMatch bMSIE !no-gzip !gzip-only-text/html

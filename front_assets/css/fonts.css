@@ -1,0 +1,20 @@
+@font-face {
+  font-family: 'GEDinarLight';
+  src: url("fonts/GE_DINAR_ONE_LIGHT.OTF") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'GEDinarMedium';
+  src: url("fonts/GE_DINAR_ONE_MEDIUM.OTF") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'DroidKufi-Regular';
+  src: url("fonts/DroidKufi-Regular_0.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+

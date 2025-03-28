@@ -1,0 +1,106 @@
+.slick-track {
+	right: 0;
+	left:auto;
+}
+.slick-slide {
+	float: right;
+}
+/* Arrows */
+.aboutGallery .slick-next {
+	right: auto;
+	left: 24px;
+	background:url(../images/leftArrow.png) no-repeat center center
+}
+.aboutGallery .slick-prev {
+	left: auto;
+	right: 24px;
+	background:url(../images/rightArrow.png) no-repeat center center
+}
+
+#BranchGalBig .slick-next {
+	right: auto;
+	left: 24px;
+	background:url(../images/leftArrow.png) no-repeat center center
+}
+#BranchGalBig .slick-prev {
+	right: auto;
+	left: 114px;
+	background:url(../images/rightArrow.png) no-repeat center center
+}
+
+
+#BranchGalThumb .slick-next {
+	right: auto;
+	left: 3px;
+}
+#BranchGalThumb .slick-prev {
+	left: auto;
+	right: 3px;
+}
+
+#programs_products .slick-next {
+	right: auto;
+	left:0;
+	background:url(../images/leftArrow.png) no-repeat center center
+}
+#programs_products .slick-prev {
+	right: auto;
+	left:45px;
+	background:url(../images/rightArrow.png) no-repeat center center
+}
+
+#ProgramsPackagesSlider .slick-next {
+	right: auto;
+	left:0;
+	background:url(../images/leftArrow.png) no-repeat center center
+}
+#ProgramsPackagesSlider .slick-prev {
+	right: auto;
+	left:45px;
+	background:url(../images/rightArrow.png) no-repeat center center
+}
+
+#ProgramsCategoriesSlider .slick-next {
+	right: auto;
+	left:0;
+	background:url(../images/leftArrow.png) no-repeat center center
+}
+#ProgramsCategoriesSlider .slick-prev {
+	right: auto;
+	left:45px;
+	background:url(../images/rightArrow.png) no-repeat center center
+}
+
+
+/* Dots */
+
+.slick-dots li button:before {
+	left: auto;
+	right: 0;
+}
+@media (max-width: 800px)
+ {
+
+ }
+ @media (max-width: 620px)
+ {
+
+
+ }
+
+  @media (max-width: 500px)
+ {
+
+#BranchGalBig .slick-next {
+	right: auto;
+	left: 10px;
+}
+#BranchGalBig .slick-prev {
+	right: auto;
+	left: 50px;
+}
+}
+ }
+  @media (min-width: 400px) and (max-width: 430px)
+ {
+ }

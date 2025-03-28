@@ -1,0 +1,1229 @@
+body {
+	float:right;
+	font-size:16px;
+	font-family: 'DroidKufi-Regular'; font-weight:100;
+	direction:rtl;
+	line-height:23px;
+}
+.slick-slide { float:right; }
+.fl {
+	float:right !important;
+}
+.fr {
+	float:left !important;
+}
+.align_left {
+	text-align:right;
+}
+.align_right {
+	text-align:left;
+}
+.relative {
+	left:auto;
+	right:0px;
+	float:right;
+}
+.language a.ar {
+padding: 8px 8px;
+}
+.absolute {
+	left:auto;
+	right:0px;
+	float:right;
+}
+.absolute-right {
+	right:auto;
+	left:0px;
+	float:left;
+}
+input {
+	font-size:15px;
+}
+textarea {
+	font-size:15px;
+}
+input.submit {
+	font-size:15px;
+}
+/* */
+.alert-box {
+	font-family: 'DroidKufi-Regular'; font-weight:100;
+	font-size:12px;
+	padding:10px 36px 10px 10px;
+	text-align:right;
+}
+.error {
+	background-position:90% 10px;
+}
+.success {
+	background-position:90% 10px;
+}
+.warning {
+	background-position:90% 10px;
+}
+.notice {
+	background-position:90% 10px;
+}
+
+.ad-icon {
+	right:auto;
+	left:1%;
+}
+.close-ad-icon { right:auto; left:0; z-index:10; font-family: 'DroidKufi-Regular'; font-weight:100; font-weight:100; }
+/* */
+#header {
+	left:auto;
+	right:0px;
+	float:right;
+}
+#top {
+	left:auto;
+	right:0px;
+	float:right;
+}
+.slicknav_nav a {
+	font-size:14px;
+	font-family: 'DroidKufi-Regular'; font-weight:100;
+}
+.slicknav_nav li ul li a {
+	font-size:12px;
+}
+.logo {
+	float:right;
+}
+#banner {
+	left:auto;
+	right:0px;
+	float:right;
+}
+.banner-img {
+	float:right;
+  /*-moz-transform: scaleX(-1);
+	-o-transform: scaleX(-1);
+	-webkit-transform: scaleX(-1);
+	transform: scaleX(-1);
+	filter: FlipH;
+	-ms-filter: "FlipH";*/
+}
+#banner div.banner-text-wrapper {
+	left:auto;
+	right:0px;
+	line-height:29px;
+}
+body.c-about.m-philosophy #banner div.banner-text-wrapper,
+body.c-contact.m-index #banner div.banner-text-wrapper { line-height:36px; }
+#banner h2 {
+	font-family: 'DroidKufi-Regular'; font-weight:100; line-height:66px;
+}
+#banner p {
+	font-family: 'DroidKufi-Regular'; font-weight:100;
+}
+body.c-about.m-index #banner h2 {
+	font-family: 'DroidKufi-Regular'; font-weight:100; line-height:48px;
+}
+body.c-about.m-corporate_profile #banner p, body.c-contact #banner p {
+	font-family: 'DroidKufi-Regular'; font-weight:100; line-height:60px;
+}
+body.c-about.m-philosophy #banner p, body.c-contact #banner p {
+	font-family: 'DroidKufi-Regular'; font-weight:100;
+}
+#banner div.banner-text-wrapper h2, 
+#banner div.banner-text-wrapper .banner-img, 
+#banner div.banner-text-wrapper p, 
+#banner div.banner-text-wrapper a {
+	-webkit-transform: translate(200px, 0);
+	-moz-transform: translate(200px, 0);
+	-ms-transform: translate(200px, 0);
+	-o-transform: translate(200px, 0);
+	transform: translate(200px, 0);
+	
+	opacity:0;
+	visibility:hidden;
+}
+#banner .slick-active div.banner-text-wrapper h2, 
+#banner .slick-active div.banner-text-wrapper .banner-img, 
+#banner .slick-active div.banner-text-wrapper p, 
+#banner .slick-active div.banner-text-wrapper a {
+	
+	opacity:1;
+	visibility:visible;
+	-webkit-transform: translate(0, 0);
+	-moz-transform: translate(0, 0);
+	-ms-transform: translate(0, 0);
+	-o-transform: translate(0, 0);
+	transform: translate(0, 0);
+}
+#banner ul.slick-dots {
+	text-align:right;
+}
+
+
+ul.left-menu li a {
+	font-weight:400;
+	font-size:18px;
+	font-family: 'DroidKufi-Regular'; font-weight:100;
+}
+#footer {
+	left:auto;
+	right:0px;
+	float:right;
+}
+.footer-wrapper {
+	float:right;
+}
+.copyright {
+	float:right;
+	font-size:16px;
+	font-family: 'DroidKufi-Regular'; font-weight:100;
+}
+ul#footer_ul {
+	float:right;
+}
+ul#footer_ul li {
+	border-right-width:0;
+	border-right-style:none;
+	padding-right:0;
+	margin-right:0;
+	
+	border-left-width:1px;
+	border-left-style:solid;
+	
+	padding-left:20px;
+	margin-left:20px;
+	float:right;
+	font-family: 'DroidKufi-Regular'; font-weight:100;
+}
+ul#footer_ul li:last-child {
+	border-right:none;
+	border-left:none;
+}
+ul#footer_ul ul.footer_ul_sub {
+	float:right;
+}
+ul#footer_ul ul.footer_ul_sub li {
+	border-right:none;
+	border-left:none;
+}
+ul#footer_ul ul.footer_ul_sub li a {
+	float:right;
+	font-size:16px;
+	/*background:url(../images/footer-gray-arrow.png) no-repeat 95% center;*/
+	padding-left:inherit;
+	padding-right:15px;
+}
+ul#footer_ul ul.footer_ul_sub li a i.fa-caret-left {
+	position:absolute;
+	top:2px;
+	right:0;
+}
+ul#footer_ul ul.footer_ul_sub li a.small i.fa-caret-left {
+	right:16px;
+}
+ul#footer_ul ul.footer_ul_sub li a.big, ul#footer_ul ul.footer_ul_sub li span.big {
+	float:right;
+	font-size:20px;
+	padding-left:inherit;
+	padding-right:0px;
+}
+ul#footer_ul ul.footer_ul_sub li a.small {
+	float:right;
+	font-size:16px;
+	padding-left:inherit;
+	padding-right:30px;/*background:url(../images/footer-small-arrow.png) no-repeat 94% center;*/
+}
+.language {
+	float:left;
+	font-size:15px;
+	font-family: 'DroidKufi-Regular'; font-weight:100;
+}
+.language a {
+	float:right;
+}
+.md_content-wrapper {
+	float:right;
+	font-size:16px;
+	background-image: url(../images/md-rtl.png);
+}
+.md_content-wrapper figure {
+	float:right;
+}
+.md_content-wrapper div.md_content {
+	float:right;
+	margin-left:auto;
+	margin-right:85px;
+}
+.md_content h1 {
+	font-size:45px;
+	font-family: 'DroidKufi-Regular'; font-weight:100;
+	line-height:45px;
+}
+.md_content h2 {
+	font-size:25px;
+	font-family: 'DroidKufi-Regular'; font-weight:100;
+	line-height:29px;
+}
+.md_content h3 {
+	font-size:23px;
+	font-family: 'DroidKufi-Regular'; font-weight:100;
+	line-height:29px;
+}
+.md_content h3:before {
+	left:auto;
+	right:0;
+}
+.md_content div.description {
+	font-family: 'DroidKufi-Regular'; font-weight:100;
+	font-size:16px;
+}
+.md_content div.description:before {
+	left : auto;
+ right:*60px;
+	background-image:url(../images/md_left_icon-rtl.png);
+}
+.md_content div.description:after {
+	right : auto;
+	left:-65px;
+	background-image:url(../images/md_right_icon-rtl.png);
+}
+.content_inner {
+	float:right;
+}
+.content_inner h2 {
+	font-family: 'DroidKufi-Regular'; font-weight:100;
+	font-size:19px;
+	float:right;
+	line-height:29px;
+}
+.content_inner h3 {
+	font-family: 'DroidKufi-Regular'; font-weight:100;
+	font-size:16px;
+	float:right;
+}
+.content_inner div.address {
+	float:right;
+}
+h1.with-border, .head-title.with-border {
+	float:right;
+	font-size:30px;
+	font-family: 'DroidKufi-Regular'; font-weight:100; line-height:38px;
+}
+h1.with-border:before, .head-title.with-border:before {
+	left :auto;
+	right:0;
+}
+h1.with-border.center:before, .head-title.with-border.center:before {
+	left:0;
+}
+.text {
+	float:right;
+}
+a.red-btn {
+	float:right;
+}
+.gray_line {
+	float:right;
+}
+.gray-box {
+	float:right;
+}
+.gray-box div.gray-box-block {
+	float:right;
+	margin-right:auto;
+	margin-left:30px;
+}
+.gray-box div.box-block:last-child {
+	margin-right:auto;
+	margin-left:0px;
+}
+.gray-box h3 {
+	float:right;
+	font-size:20px;
+}
+.gray-box ul li {
+	float:right;
+}
+.gray-box ul li a {
+	font-size:18px;
+	float:right;
+	padding-left:inherit;
+	padding-right:15px;
+}
+.gray-box ul li a::before {
+ left : auto;
+ right:0;
+ border-left:none;
+ border-right-width: 5px;
+ border-right-style: solid;
+}
+ul.corporate_profile {
+	float:right;
+}
+ul.corporate_profile li {
+	margin-right:0;
+	margin-left:25px;
+}
+ul.corporate_profile li a {
+	float:right;
+	font-size:25px;
+}
+.sharp-corporation figure {
+	float:right;
+}
+.sharp-corporation h2 {
+	font-size:22px;
+}
+.sharp-corporation p {
+	font-size:16px;
+}
+/*****************************************************************************/
+.history-item {
+	float:left !important;
+	margin-right:0;
+	margin-left:40px;
+	text-align:right;
+}
+.history-item .year {
+	font-family: 'DroidKufi-Regular'; font-weight:100;
+	font-size:28px;
+	padding-left:auto;
+	border-left-width:0;
+	border-left-style:none;
+	margin-left:auto;
+	padding-right:5px;
+	border-right-width:1px;
+	border-right-style:solid;
+	margin-right:25px;
+	float:right;
+}
+.history-item .img {
+	float:right;
+}
+.history-item .title {
+	font-family: 'DroidKufi-Regular'; font-weight:100;
+	font-size:18x;
+	padding-left:auto;
+	border-left-width:0;
+	border-left-style:none;
+	margin-left:auto;
+	padding-right:5px;
+	border-right-width:1px;
+	border-right-style:solid;
+	margin-right:25px;
+	float:right;
+}
+button.slick-nav-right {
+	left:auto;
+	right:40px;
+}
+#products-gallery button.slick-nav-right {
+	right:auto;
+	left:0;
+}
+button.slick-nav-right .slick-next, button.slick-nav-left .slick-prev {
+	font-size:30px;
+	float:right;
+}
+.timeline-left-filter button.slick-nav-right {
+	left:auto;
+	right:35px;
+}
+.timeline-left-filter button.slick-nav-right .slick-next, .timeline-left-filter button.slick-nav-left .slick-prev {
+	font-size:22px;
+}
+.history-timeline-left {
+	float:right;
+	border-right-width:0;
+	border-right-style:none;
+	border-left-width:1px;
+	border-left-style:solid;
+}
+.history-timeline-right {
+	margin-left:auto;
+	margin-right:225px;
+}
+.timeline-circle-switch {
+	left:auto;
+	right:-13px;
+}
+.timeline-circle-switch .angle {
+	left:auto;
+	right:0;
+	font-size:55px;
+	font-family: 'DroidKufi-Regular'; font-weight:100;
+}
+.timeline-circle-switch .years {
+	left:auto;
+	right:0;
+}
+.timeline-circle-switch .years span {
+	font-size:25px;
+	font-family: 'DroidKufi-Regular'; font-weight:100;
+	left:auto;
+	right:0;
+}
+.timeline-left-filter ul {
+	padding-left:inherit;
+	padding-right:31px;
+}
+.timeline-left-filter ul li a {
+	font-size:18px;
+	font-family: 'DroidKufi-Regular'; font-weight:100;
+	width:94px;
+}
+.timeline-left-filter ul li a i {
+	left:auto;
+	right:-10px;
+}
+.timeline-item .left-item-side {
+	float:right;
+	font-size:20px;
+	font-family: 'DroidKufi-Regular'; font-weight:100;
+}
+.timeline-item .right-item-side {
+	margin-left:auto;
+	margin-right:50px;
+}
+.timeline-item .right-item-side ul {
+	padding-left:inherit;
+	padding-right:15px;
+}
+.timeline-item .right-item-side ul li {
+	font-size:15px;
+	font-family: 'DroidKufi-Regular'; font-weight:100;
+}
+/*************************************************************************************/
+
+.news-item .img {
+	float:right;
+}
+.news-item .info {
+	margin-left:auto;
+	margin-right:470px;
+}
+.news-item .info.full {
+	margin-left:auto;
+	margin-right:0;
+}
+.news-item .info .date {
+	font-size:16px;
+	font-family: 'DroidKufi-Regular'; font-weight:100;
+}
+.news-item .info h2 {
+	font-family: 'DroidKufi-Regular'; font-weight:100;
+	font-size:22px;
+}
+.description {
+	font-family: 'DroidKufi-Regular'; font-weight:100;
+	font-size:16px;
+	line-height:29px;
+}
+.description table {
+	float:right;
+}
+.description h1 {
+	font-family: 'DroidKufi-Regular'; font-weight:100;
+	font-size:28px;
+}
+.description h2 {
+	font-family: 'DroidKufi-Regular'; font-weight:100;
+	font-size:26px;
+}
+.description h3 {
+	font-family: 'DroidKufi-Regular'; font-weight:100;
+	font-size:24px;
+}
+.description h4 {
+	font-family: 'DroidKufi-Regular'; font-weight:100;
+	font-size:22px;
+}
+.description h5 {
+	font-family: 'DroidKufi-Regular'; font-weight:100;
+	font-size:20px;
+}
+.description h6 {
+	font-family: 'DroidKufi-Regular'; font-weight:100;
+	font-size:18px;
+}
+.description ul, .description ol {
+	padding-left:inherit;
+	padding-right:15px;
+}
+.read-more {
+	font-family: 'DroidKufi-Regular'; font-weight:100;
+	font-size:12px;
+	line-height:23px;
+}
+.read-more:before {
+	left:auto;
+	right:8px;
+	font-size:24px;
+	top:5px;
+}
+.read-more-1 {
+	font-family: 'DroidKufi-Regular'; font-weight:100;
+	padding:7px 18px 7px 0;
+	font-size:12px;
+}
+.read-more-1:before {
+	left:auto;
+	right:0;
+	font-size:24px;
+}
+.learn-more {
+	font-family: 'DroidKufi-Regular'; font-weight:100;
+	font-size:14px;
+}
+.learn-more:before {
+	left:auto;
+	right:8px;
+	font-size:24px;
+	top:5px;
+}
+.news-box .date, .news-article .date, .related-news .date {
+	font-size:19px;
+	font-family: 'DroidKufi-Regular'; font-weight:100;
+}
+.news-box .title {
+	font-size:20px;
+	font-family: 'DroidKufi-Regular'; font-weight:100;
+}
+.view-all {
+	float:left;
+	font-size:16px;
+	font-family: 'DroidKufi-Regular'; font-weight:100;
+}
+.news-article h1 {
+	font-size:22px;
+	font-family: 'DroidKufi-Regular'; font-weight:100;
+}
+.news-gallerys-slider.slick-slider {
+	float:right;
+}
+.news-gallerys-slider .img {
+	margin-right:auto;
+	margin-left:7px;
+}
+.news-article .overlay {
+	right:auto;
+	left: 2%;
+}
+.news-article .overlay i {
+	font-size: 90px;
+	left:auto;
+	right:30px;
+}
+.back {
+	text-align:left;
+	font-size:12px;
+	font-family: 'DroidKufi-Regular'; font-weight:100;
+}
+.related-news-slider button.slick-nav-right {
+	left:auto;
+	right:40px;
+}
+.related-news-slider button.slick-nav-right .slick-next, .related-news-slider button.slick-nav-left .slick-prev {
+	float:right;
+}
+.span ul.slick-dots {
+	left:auto;
+	right:0;
+}
+/***********************************************************************/
+.product-division {
+	font-size:16px;
+	font-family: 'DroidKufi-Regular'; font-weight:100;
+}
+.product-page-title {
+	font-size:30px;
+	font-family: 'DroidKufi-Regular'; font-weight:100;
+}
+.products-left {
+	float:right;
+}
+.products-right {
+	float:left;
+}
+#products-gallery .slick-nav-right {
+	right:auto;
+	left:0;
+	font-size:40px;
+}
+#products-gallery .slick-nav-left {
+	left:auto;
+	right:0;
+	font-size:40px;
+}
+.product-box h3 {
+	font-family: 'DroidKufi-Regular'; font-weight:100;
+	font-size:16px;
+}
+.product-box h4 {
+	font-family: 'DroidKufi-Regular'; font-weight:100;
+	font-size:16px;
+}
+.product-box.four:nth-of-type(4n+1),
+.product-box.four:nth-of-type(4n+2),
+.product-box.four:nth-of-type(4n+3) {
+	margin:0 0 0 1.4%;
+	margin-bottom:27px;
+}
+.product-box.four:nth-of-type(4n+4) {
+	margin:0 0 0 0;
+	margin-bottom:27px;
+}
+.quick-search-title {
+	font-size:27px;
+	font-family: 'DroidKufi-Regular'; font-weight:100;
+}
+.form-item {
+	float:right;
+}
+ .form-item:nth-of-type(2n+2) {
+ float:left
+}
+.form-item label {
+	font-size:20px;
+	font-family: 'DroidKufi-Regular'; font-weight:100;
+}
+.form-item select, .form-item input[type="text"], .form-item input[type="file"], .form-item input[type="integer"], .form-item textarea {
+	font-size:16px;
+	font-family: 'DroidKufi-Regular'; font-weight:100;
+}
+.form-item input[type="submit"] {
+	float:left;
+	font-size:20px;
+	font-family: 'DroidKufi-Regular'; font-weight:100;
+}
+.form-item input[type="reset"] {
+	float:left;
+	font-size:20px;
+	font-family: 'DroidKufi-Regular'; font-weight:100;
+	margin-right:auto;
+	margin-left:10px;
+}
+.form-error {
+	font-family: 'DroidKufi-Regular'; font-weight:100;
+	font-size:15px;
+}
+.thankyou-message {
+	font-family: 'DroidKufi-Regular'; font-weight:100;
+	font-size:20px;
+}
+.custom-form-style .form-item {
+	margin-bottom:0;
+	font-size:16px;
+}
+.custom-form-style .form-item label {
+	float:right;
+	text-align:left;
+	font-size:16px;
+}
+.custom-form-style .form-item input[type="text"], 
+.custom-form-style .form-item input[type="file"], 
+.custom-form-style .form-item input[type="integer"], 
+.custom-form-style .form-item select, 
+.custom-form-style .form-item textarea,
+.custom-form-style #careersForm .intl-tel-input, 
+.custom-form-style #careersForm .form-error, 
+.careers-captcha {
+	float:right;
+}
+.custom-form-style #careersForm .form-item input[type="text"], 
+.custom-form-style #careersForm .form-item input[type="file"], 
+.custom-form-style #careersForm .form-item input[type="integer"], 
+.custom-form-style #careersForm .form-item select, 
+.custom-form-style #careersForm .form-item textarea,
+.custom-form-style #careersForm .intl-tel-input, 
+.custom-form-style #careersForm .form-error, 
+.careers-captcha {
+	float:left;
+}
+.custom-form-style .careers-captcha .form-item label {
+	text-align:right;
+}
+.custom-form-style .form-item .form-item-right {
+	float:left;
+}
+.custom-form-style .form-item .form-item input[type="text"], .custom-form-style .form-item .form-item input[type="file"], .custom-form-style .form-item .form-item input[type="integer"], .custom-form-style .form-item .form-item select, .custom-form-style .form-item .form-item textarea {
+	float:left;
+}
+.custom-form-style.service_center_form .form-item label {
+	text-align:right;
+}
+.custom-form-style.service_center_form .radios label {
+	margin:0 0 0 10px;
+}
+.results-will-show-here {
+	font-family: 'DroidKufi-Regular'; font-weight:100;
+	font-size:25px;
+}
+.breadcrumbs li {
+	float:right;
+	margin-right:auto;
+	margin-left:15px;
+}
+.breadcrumbs li a, .breadcrumbs li span {
+	font-family: 'DroidKufi-Regular'; font-weight:100;
+	font-size:16px;
+}
+.product-details-left {
+	float:right;
+}
+.product-details-left img {
+	max-width:100%
+}
+.product-details-right {
+	float:left;
+}
+.product-details-right.full {
+	float:right;
+}
+.product-brand-logo {
+	right:auto;
+	left:-30px;
+}
+.product-details-right h1 {
+	font-family: 'DroidKufi-Regular'; font-weight:100;
+	font-size:45px;
+}
+.product-details-right h4 {
+	font-family: 'DroidKufi-Regular'; font-weight:100;
+	font-size:16px;
+}
+.block-title {
+	font-size:40px;
+	font-family: 'DroidKufi-Regular'; font-weight:100;
+}
+.block-title.case-red {
+	font-size:35px;
+}
+.may-also-like-slider button.slick-nav-right {
+	left:auto;
+	right:40px;
+}
+.may-also-like-slider button.slick-nav-right .slick-next, .may-also-like-slider button.slick-nav-left .slick-prev {
+	font-size:30px;
+	float:right;
+}
+.product-menu ul li, .r-tabs-accordion-title {
+	margin-right:auto;
+	margin-left:14px;
+}
+.r-tabs-accordion-title {
+	margin-right:auto;
+	margin-left:0;
+}
+.product-menu ul li a, .r-tabs-accordion-title a {
+	font-size:25px;
+	font-family: 'DroidKufi-Regular'; font-weight:100;
+}
+/***********************************************************/
+.left-menu-item {
+	float:right;
+	font-size:20px;
+	font-family: 'DroidKufi-Regular'; font-weight:100;
+	line-height:29px;
+}
+.left-menu-item:before {
+	left:auto;
+	right : 0px;
+}
+.careers-left {
+	float:right;
+}
+.careers-right {
+	margin-left:auto;
+	margin-right:300px;
+}
+.content_inner .careers-box h3 {
+	font-size:18px;
+}
+#popupshadow {
+	left:auto;
+	right:0;
+}
+.popup-close {
+	right:auto;
+	left:8px;
+	font-family: 'DroidKufi-Regular'; font-weight:100;
+	font-size:18px;
+}
+fieldset legend {
+	font-size:23px;
+	font-family: 'DroidKufi-Regular'; font-weight:100;
+}
+
+.download-item .title {
+font-size:21px;
+	font-family: 'DroidKufi-Regular'; font-weight:100;
+	font-weight:300;
+
+
+}
+.download-item .download-navs {
+
+	right:auto;
+left:0;
+}
+.download-item .download-icon {
+	font-size:14px;
+}
+.download-item .download-btn {
+	font-weight:300;
+	font-family: 'DroidKufi-Regular'; font-weight:100;
+	font-size:16px;
+}
+.support-form .custom-form-style .form-item label {
+	text-align:right;
+}
+.support-left {
+	float:right;
+}
+.support-right {
+	float:left;
+}
+.support-left ul li a {
+	font-family: 'DroidKufi-Regular'; font-weight:100;
+	font-size: 22px;
+}
+.support-navigation {
+	float:left;
+	text-align:left;
+}
+.support-navigation a {
+	font-family: 'DroidKufi-Regular'; font-weight:100;
+	font-size: 22px;
+	margin: 0 4px 0 0;
+}
+.support-right label {
+	font-family: 'DroidKufi-Regular'; font-weight:100;
+	font-size: 18px;
+	float:right;
+}
+.support-download {
+	float:left;
+}
+.form-radios label {
+	float:right;
+	text-align:right;
+}
+.form-radios label:nth-of-type(2n+2) {
+float:left;
+}
+.form-radios label input[type="radio"], .form-radios label input[type="checkbox"] {
+	margin-right:auto;
+	margin-left:4px;
+}
+.form-radios label span {
+	font-size:20px;
+	font-family: 'DroidKufi-Regular'; font-weight:100;
+}
+/*******************************************************************************/
+
+.home-category-item {
+	float:right;
+}
+
+.home-categories-container .half-side:nth-of-type(2n+1):after { right:auto; left:-14px; }
+
+.home-category-item.half:nth-of-type(2n+2) {
+float:left
+}
+.home-category-item .info {
+	left:auto;
+	right:0;
+}
+.home-category-item .info h2 {
+	font-family: 'DroidKufi-Regular'; font-weight:100;
+	font-size:20px;
+}
+.home-category-item .learn-more {
+	font-size:14px;
+	font-family: 'DroidKufi-Regular'; font-weight:100;
+	line-height:23px;
+	margin-top:10px;
+}
+.home-category-item .learn-more::before {
+left:auto;
+right:5px;
+top:3px;
+}
+.h1-slogan {
+	font-size:41px;
+	font-family: 'DroidKufi-Regular'; font-weight:100;
+	line-height: 68px;
+}
+/*.description h3.h3-slogan, .h3-slogan {*/
+.home-intro .description h3, .h3-slogan {
+	font-size:30px;
+	font-family: 'DroidKufi-Regular'; font-weight:100;
+}
+.latest-news-item .date {
+	font-size:15px;
+	font-family: 'DroidKufi-Regular'; font-weight:100;
+}
+.latest-news-item h3 {
+	font-size:18px;
+	font-family: 'DroidKufi-Regular'; font-weight:100;
+}
+.latest-news-item .brief {
+	font-family: 'DroidKufi-Regular'; font-weight:100;
+	font-size:15px;
+}
+.newsletter-errors {
+	text-align:left;
+	font-family: 'DroidKufi-Regular'; font-weight:100;
+	font-size:14px;
+}
+.newsletter-success {
+	font-family: 'DroidKufi-Regular'; font-weight:100;
+	font-size:32px;
+	left:auto;
+	right:0;
+	bottom:14px;
+}
+.subscribe-text {
+	float:right;
+	margin-left:2%;
+}
+.subscribe-text span {
+	font-family: 'DroidKufi-Regular'; font-weight:100;
+	font-size:22px;
+	line-height:38px;
+}
+.subscribe-text small {
+	font-family: 'DroidKufi-Regular'; font-weight:100;
+	font-size:15px;
+}
+.newsletter-form-item {
+	float:right;
+	margin-right:auto;
+	margin-left:1%;
+}
+.newsletter-form-item.button {
+	margin-right:auto;
+	margin-left:0;
+}
+.pagination-box ul {
+	float:right
+}
+.pagination-box ul li {
+	margin-right:auto;
+	margin-left:10px;
+}
+.pagination-box ul li.next,
+.pagination-box ul li.prev {
+	-moz-transform: scaleX(-1);
+	-o-transform: scaleX(-1);
+	-webkit-transform: scaleX(-1);
+	transform: scaleX(-1);
+	filter: FlipH;
+	-ms-filter: "FlipH";
+}
+.pagination-box ul li i {
+	line-height:28px;
+}
+.pagination-box ul li a, .pagination-box ul li.active span {
+	font-size:20px;
+	font-family: 'DroidKufi-Regular'; font-weight:100;
+}
+.no-record-found {
+	font-family: 'DroidKufi-Regular'; font-weight:100;
+	font-size:30px;
+}
+.history-slider { float:right;}
+.download-awesome { margin-right:auto; margin-left:4px;}
+ul#menu {
+	float:left;
+	clear:both;
+}
+ul#menu li a {
+	font-family: 'DroidKufi-Regular'; font-weight:100;
+	font-size:18px;
+	line-height:23px;
+}
+ul#menu li.expanded a, ul#menu li.nested a {
+	padding-right:15px;
+	padding-left:20px;
+	padding-bottom:14px
+}
+ul#menu li.expanded i, ul#menu li.nested i {
+	right:auto;
+	left:4px;
+	font-size:14px;
+}
+ul#menu li.nested ul {
+	left:auto;
+	right:0;
+}
+ul#menu li.nested.left-side ul {
+	left:0;
+	right:auto;
+}
+ul#menu li.nested:last-child ul {
+	right:auto;
+	left:0;
+}
+ul#menu li.nested ul li a {
+	font-family: 'DroidKufi-Regular'; font-weight:100;
+	font-size:16px;
+}
+.languages_div {
+	float:left;
+}
+.languages_div ul {
+	float:left;
+}
+.languages_div ul li {
+	border-right:none;
+	padding-right:0;
+	margin-right:0;
+	border-left:1px solid #2c2c2c;
+	padding-left:10px;
+	margin-left:10px;
+}
+.languages_div ul li:last-child, .languages_div ul li.no-border {
+	border-right:none;
+	padding-right:0px;
+	margin-right:0px;
+	border-left:none;
+	padding-left:0px;
+	margin-left:0px;
+}
+.languages_div ul li span {
+	float:left;
+	font-size:16px;
+	font-family: 'DroidKufi-Regular'; font-weight:100;
+	padding-right:30px;
+	padding-left:inherit;
+}
+input.search-input {
+	font-size:18px;
+}
+.slicknav_btn {
+	font-family: 'DroidKufi-Regular'; font-weight:100;
+}
+.search_submit {
+	font-family: 'DroidKufi-Regular'; font-weight:100;
+	font-size:18px;
+}
+.products-drop-down {
+	left:auto;
+	right:0;
+}
+.products-drop-down .drop-down-tabs a {
+	padding:10px 28px 10px 80px;
+	font-size:22px;
+	font-family: 'DroidKufi-Regular'; font-weight:100;
+}
+.products-drop-down .menus ul {
+	float:right;
+	margin-right:auto;
+	margin-left:15px;
+}
+.products-drop-down .menus ul li i {
+	left:auto;
+	right:0;
+	font-size:16px;
+}
+.products-drop-down .menus ul li ul li i {
+	font-size:14px;
+	left:auto;
+	right:17px;
+}
+.products-drop-down .menus ul li a {
+	font-size:18px;
+	font-family: 'DroidKufi-Regular'; font-weight:100;
+}
+.products-drop-down .menus ul li ul li a {
+	float:right;
+	padding-right:0;
+	padding-left:0;
+	margin-left:auto;
+	margin-right:28px;
+	font-size:14px;
+}
+.products-drop-down .menus .imgs {
+	float:right;
+	margin-left:auto;
+	margin-right:10px;
+}
+ul#footer_ul ul.footer_ul_sub li .social-links a {
+	font-size: 24px;
+	margin-right:auto;
+	margin-left: 8px;
+}
+#MapCanvas {
+	float:right;
+}
+/*******************************************/
+.management-container span {
+	float:right;
+	font-family: 'DroidKufi-Regular'; font-weight:100;
+	font-size:20px;
+}
+.management-container a {
+	float:left;
+	font-family: 'DroidKufi-Regular'; font-weight:100;
+	font-size:20px;
+	margin-left:auto;
+	margin-right:10px;
+}
+.sitemap-container ul li a {
+	font-family: 'DroidKufi-Regular'; font-weight:100;
+	font-size:20px;
+}
+.sitemap-container ul li ul {
+	padding-left:inherit;
+	padding-right:20px;
+}
+.sitemap-container ul li ul li a {
+	font-size:12px;
+}
+/****************************************************/
+.search-autocomplete-results {
+	right:auto;
+	left:0;
+	text-align:right;
+}
+.searchAutoCompleteScroller {
+	float:right;
+}
+.search-autocomplete-results h2 {
+	font-family: 'DroidKufi-Regular'; font-weight:100;
+	font-size: 16px;
+}
+.search-autocomplete-results h3 {
+	font-family: 'DroidKufi-Regular'; font-weight:100;
+	font-size: 13px;
+}
+.search-result-item .img {
+	float:right;
+	margin-right:auto;
+	margin-left:2%;
+}
+.search-result-item h3 {
+	float:left;
+}
+.search-result-item.full h3 {
+	float:right;
+}
+button.slick-next {
+	font-family: 'DroidKufi-Regular'; font-weight:100;
+	font-size:28px;
+	right:auto;
+	left:0;
+}
+button.slick-prev {
+	font-family: 'DroidKufi-Regular'; font-weight:100;
+	font-size:28px;
+	right:auto;
+	left:0;
+}
+
+.product-technology .tech-img.lefts { float:right; }
+.product-technology .tech-img.rights { float:left; }
+.product-technology .tech-desc.lefts { float:right; }
+.product-technology .tech-desc.rights { float:left; }
+
+.span ul.slick-dots li { float:right; }
