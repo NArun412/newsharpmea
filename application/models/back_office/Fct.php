@@ -1226,7 +1226,7 @@ route["404_override"] = "error404";';
 
 	return true;
 }
-function prepare_url($url,$id)
+function prepare_url($url='',$id='')
 {
 	$new_url = $url;
 

@@ -219,11 +219,11 @@ $view_only = view_only($content_type);
                         if ($enable_review && user_can_approve()) {
                             ?>
                             <div class="form-group">
-                                <?php echo form_label('<b>Your Approval&nbsp;<em class="red">*</em>:</b></b>'); ?>
+                                <?php echo form_label('<b>Post Status&nbsp;<em class="red">*</em>:</b></b>'); ?>
                                 <?php
                                 $options = array(
-                                    1 => "Approved",
-                                    0 => "Not Approved"
+                                    1 => "Published",
+                                    0 => "Unpublished"
                                 );
                                 $selected = 0;
                                 if (!isset($info["id_" . $content_type]))

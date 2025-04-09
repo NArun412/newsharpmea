@@ -345,10 +345,10 @@ function get_div_id_by_category($cat_id)
             //	$this->db->where('pc.id_categories',$cond['p.id_categories']);
             unset($cond['p.id_categories']);
         }
-        if (!$this->loggedIn) {
+        // if (!$this->loggedIn) {
             $this->db->where($this->pstatus_table.'.status', 1);
 			
-        }
+        // }
         if ($this->langue == $this->default_langue)
             $this->db->where('p.translation_id', 0);
 			else
